@@ -63,8 +63,11 @@ Supported snippeds:
 			"value": "JHYD_Rack"
 		}
 	]
-}`
-- drop `{
+}
+```
+- drop
+```json
+{
 	"actionId": "1761997757",
 	"actionType": "drop",
 	"blockingType": "HARD",
