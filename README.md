@@ -1,6 +1,10 @@
 # kuka-vda5050-custom-snippets
 Custom snippets for VScode for writing json vda5050 files
 
+In examples below empty fields will have default values on which your cursos will be placed after pressing Tab. exceptions are:
+- "timestamp" will be generated automatically based on the time snipped was created
+- "headerId" and "orderId" will be filled with UNIX seconds (number of seconds since 00:00:00 (UTC) on January 1, 1970) to ensure these fields will always be unique and bigger than in previous orders. There is a special qIDs snipped for quick update of these fields.
+
 Supported snippeds: 
 - order
 ```json
@@ -102,4 +106,9 @@ Supported snippeds:
 		}
 	]
 }
+```
+- qIDs ($CURRENT_SECONDS_UNIX will automatically become a number of seconds)
+```json
+	"headerId": $CURRENT_SECONDS_UNIX,
+	"orderId": "$CURRENT_SECONDS_UNIX",
 ```
