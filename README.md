@@ -6,9 +6,9 @@ Supported snippeds:
 ```json
 {
 	"$schema": "https://raw.githubusercontent.com/VDA5050/VDA5050/refs/heads/main/json_schemas/order.schema",
-	"headerId": 1761997656,
-	"orderId": "1761997656",
-	"timestamp": "2025-11-01T14:47:36.16Z",
+	"headerId": ,
+	"orderId": "",
+	"timestamp": "",
 	"version": "2.0.0",
 	"manufacturer": "kuka",
 	"serialNumber": "1583485",
@@ -20,12 +20,12 @@ Supported snippeds:
 - node
 ```json
 {
-	"nodeId": "id",
-	"sequenceId": seqId,
+	"nodeId": "",
+	"sequenceId": ,
 	"released": true,
 	"nodePosition": {
-		"x": 0,
-		"y": 0,
+		"x": ,
+		"y": ,
 		"allowedDeviationXY": 0.05,
 		"allowedDeviationTheta": 0.07,
 		"mapId": "map_october_30_october_30_y2k_updateEdgeLabel_Config.xml,"
@@ -37,10 +37,10 @@ Supported snippeds:
 ```json
 {
 	"edgeId": "e",
-	"sequenceId": seqId,
+	"sequenceId": ,
 	"released": true,
-	"startNodeId" :"start",
-	"endNodeId" :"end",
+	"startNodeId" :"",
+	"endNodeId" :"",
 	"maxSpeed": 1,
 	"orientation": 0,
 	"actions": []
@@ -49,18 +49,18 @@ Supported snippeds:
 - pick
 ```json
 {
-	"actionId": "1761997737",
+	"actionId": "",
 	"actionType": "pick",
 	"blockingType": "HARD",
 	"actionParameters" :
 	[
 		{
 			"key": "loadType",
-			"value": "9004"
+			"value": ""
 		},
 		{
 			"key": "loadName",
-			"value": "JHYD_Rack"
+			"value": ""
 		}
 	]
 }
@@ -68,18 +68,18 @@ Supported snippeds:
 - drop
 ```json
 {
-	"actionId": "1761997757",
+	"actionId": "",
 	"actionType": "drop",
 	"blockingType": "HARD",
 	"actionParameters" :
 	[
 		{
 			"key": "loadType",
-			"value": "9004"
+			"value": ""
 		},
 		{
 			"key": "loadName",
-			"value": "JHYD_Rack"
+			"value": ""
 		}
 	]
 }
@@ -88,8 +88,8 @@ Supported snippeds:
 ```json
 {
 	"$schema": "https://raw.githubusercontent.com/VDA5050/VDA5050/refs/heads/main/json_schemas/instantActions.schema",
-	"headerId": 1761997792,
-	"timestamp": "2025-11-01T14:49:52.16Z",
+	"headerId": ,
+	"timestamp": "",
 	"version": "2.0.0",
 	"manufacturer": "kuka",
 	"serialNumber": "1583485",
