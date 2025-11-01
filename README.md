@@ -3,7 +3,8 @@ Custom snippets for VScode for writing json vda5050 files
 
 Supported snippeds: 
 - order
-`{
+```json
+{
 	"$schema": "https://raw.githubusercontent.com/VDA5050/VDA5050/refs/heads/main/json_schemas/order.schema",
 	"headerId": 1761997656,
 	"orderId": "1761997656",
@@ -14,7 +15,8 @@ Supported snippeds:
 	"orderUpdateId": 0,
 	"nodes": [],
 	"edges": []
-}`
+}
+```
 - node `{
 	"nodeId": "id",
 	"sequenceId": seqId,
