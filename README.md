@@ -8,7 +8,7 @@ In examples below empty fields will have default values on which your cursos wil
 - "timestamp" will be generated automatically based on the time snipped was created
 - "headerId" and "orderId" will be filled with UNIX seconds (number of seconds since 00:00:00 (UTC) on January 1, 1970) to ensure these fields will always be unique and bigger than in previous orders. There is a special qIDs snipped for quick update of these fields.
 
-Supported snippeds: 
+## Supported snippeds: 
 - order
 ```json
 {
