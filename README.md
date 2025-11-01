@@ -17,7 +17,9 @@ Supported snippeds:
 	"edges": []
 }
 ```
-- node `{
+- node
+```json
+{
 	"nodeId": "id",
 	"sequenceId": seqId,
 	"released": true,
@@ -29,8 +31,11 @@ Supported snippeds:
 		"mapId": "map_october_30_october_30_y2k_updateEdgeLabel_Config.xml,"
 	},
 	"actions": []
-}`
-- edge `{
+}
+```
+- edge
+```json
+{
 	"edgeId": "e",
 	"sequenceId": seqId,
 	"released": true,
@@ -39,8 +44,11 @@ Supported snippeds:
 	"maxSpeed": 1,
 	"orientation": 0,
 	"actions": []
-}`
-- pick `{
+}
+```
+- pick
+```json
+{
 	"actionId": "1761997737",
 	"actionType": "pick",
 	"blockingType": "HARD",
@@ -71,8 +79,11 @@ Supported snippeds:
 			"value": "JHYD_Rack"
 		}
 	]
-}`
-- cancel `{
+}
+```
+- cancel
+```json
+{
 	"$schema": "https://raw.githubusercontent.com/VDA5050/VDA5050/refs/heads/main/json_schemas/instantActions.schema",
 	"headerId": 1761997792,
 	"timestamp": "2025-11-01T14:49:52.16Z",
@@ -87,4 +98,5 @@ Supported snippeds:
 			"blockingType": "HARD"
 		}
 	]
-}`
+}
+```
